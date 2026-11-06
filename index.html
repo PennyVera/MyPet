@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPet</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="javascript/main.js"></script>
+  </head>
+  <body>
+    welcome to my pet website!
+    <div class="screen">
+      <button class="GUIbtn" id="pause">Pause</button>
+      <!-- when pause is clicked -->
+      <div>
+        <button class="GUIbtn" id="play">Continue</button>
+        <button class="GUIbtn" id="restart">Restart</button>
+        <button class="GUIbtn" id="exit">Exit</button>
+      </div>
+
+      <div class="stats">
+        <p>Hunger: <span id="hunger"></span></p>
+        <p>Happiness: <span id="happiness"></span></p>
+        <p>Cleanliness: <span id="cleanliness"></span></p>
+      </div>
+
+      <canvas id="petCanvas" width="400" height="400"></canvas>
+    </div>
+  </body>
+</html>
